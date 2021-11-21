@@ -14,11 +14,12 @@ const Contact_Us=(props)=>{
 
 }
 
-const Contact_Us = (props) => {
-    
+const Blog = (props) => {
+
     return <>
-        <h1>contact us</h1>
+        <h1>Blog</h1>
     </>};
 
 
 export default Contact_Us;
+export {Blog};

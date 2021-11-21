@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, NavLink, Routes} from 'react-router-dom';
-import Blog from './Contact_Us'
+import {Blog} from './Contact_Us'
 import About_us from './About_us';
 import Contact_Us from './Contact_Us';
 import "../App.css";
@@ -22,6 +22,7 @@ const Header = ()=> {
         <Routes >
         <Route exact path="/" element={<About_us />} />
         <Route exact path="/Contact_Us" element={<Contact_Us/>}/>
+            <Route exact path="/Blog" element={<Blog />} />
         <Route exact path="/Email_Finder" element={<Email_Finder/>}/>
     </Routes> </>}
 export default Header;
