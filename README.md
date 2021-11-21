@@ -2,7 +2,7 @@
 
 This is a single page website for demonstrating a complete multipage website with in a single page.
 
-## Link:https://electro-react.github.io/one_page_website/
+## Link:https://website-demo-eosin.vercel.app/
 
 for more description or ny query please DM me  on my linkdin and insta
 
