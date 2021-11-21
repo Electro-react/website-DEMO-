@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    box-sizing            : content;
+    margin                : 0px;
+    font-family           : 'Rubik', sans-serif;
+    box-sizing            : content-box;
+    width                 : 98%;
+    height                : auto;
+}
+.col-1{width              : 10%;}
+.col-2{width              : 20%;}
+.col-3{width              : 30%;}
+.col-4{width              : 40%;}
+.col-5{width              : 50%;}
+.col-6{width              : 60%;}
+.col-7{width              : 70%;}
+.col-8{width              : 80%;}
+.col-9{width              : 90%;}
+.col-10{width             : 100%;}
+
+.LOGOHOLDER{
+    color: #3a539b ;
+    padding:10px;
+    text-align:center;
+}
+.ContentBox{
+    transition            : color 2s ease;
+    background            : white;
+    color                 : #86cad6;
+    padding               : 10px;
+    font-size             : 15pt;
+    border                : 2px solid;
+    border-radius         : 4px;
+    width                 : 200px;
+    height                : auto;
+    padding               : 20px;
+    font-weight           : bold;
+    font-display          : grid;
+    display               : flex;
+    justify-content       : center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+.ContentBox:hover{
+    background-color      : #ff0040;
+    color                 : white;
+    -webkit-transition    : background-color 1000ms linear;
+    -ms-transition        : background-color 1000ms linear;
+    transition            : background-color 1000ms linear;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    
+[class^="col-"]{    
+    padding               : 10px;
+    }
+
+.video{
+    width                 : 750px;
+    height                : 600px;
+    position              : relative;
+    bottom                : 25%;
+    border-style          : solid;
+    border-width          : 15px 0px 45px 15px;
+    border-radius         : 10px 0px 0px 10px;
+    border-color          : #90C0C0;
+    position              : relative;
+    left                  : 1%;
+}  
+
+
+#Paragraph{
+    font-size             : 22pt;
+    width                 : 100%;
+    height                : auto;
+    display               : flex;
+    grid-template-columns : 70% 30%;
+    position              : relative;
+    left                  : 5%;
+    bottom                : 50%;
+   }
+.list{
+    display               : grid;
+    grid-template-columns : 25% 8% 12% 8% 22% 15% 15%;
+    font-size             : 22pt;
+    padding-top           : 3rem;
+    padding-bottom        : 5px;
+}
+.heading {
+    background-position   : left;
+    background-repeat     : no-repeat;
+    margin                : 5%;
+    padding-bottom        : 0%;
+    display               : flex;
+    position              : relative;
+    left                  : 05%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.active{
+    color                 : red;
+    font-weight           : bold
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 1765px){
+    .ContentBox{
+    transition            : color 2s ease;
+    background            : white;
+    color                 : #86cad6;
+    padding               : 5px;
+    font-size             : 9pt;
+    border                : 1px solid;
+    border-radius         : 3px;
+    width                 : 100px;
+    height                : auto;
+    padding               : 20px;
+    font-weight           : bold;
+    font-display          : grid;
+    display               : flex;
+    justify-content       : center;
+    padding-bottom        : 5px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list{
+    display               : grid;
+    grid-template-columns : 25% 8% 12% 8% 22% 15% 15%;
+    font-size             : 16pt;
+    padding-top           : 2rem;
+    padding-bottom        : 3px;
+}
+
+}
+
+@media screen and (max-width: 600px){
+    .list{
+        display           : none;
+    }
+    
+    #Paragraph{
+        display           : block;
+        font-size         : 1rem
+        
+        
+    }
+    .video{
+    width                 : 300px;
+    height                : auto;
+    margin                : 2rem;
+    border-style          : solid;
+    border-width          : 05px 05px 35px 05px;
+    border-radius         : 10px 10px 10px 10px;
+    border-color          : #90C0C0;
+    position              : relative;
+    left                  : 1%;
+}
+.ContentBox{
+    transition            : color 2s ease;
+    background            : white;
+    color                 : #86cad6;
+    padding               : 10px;
+    font-size             : 7pt;
+    border                : 1px solid;
+    border-radius         : 4px;
+    width                 : 100px;
+    height                : auto;
+    padding               : 20px;
+    font-weight           : bold;
+    font-display          : grid;
+    display               : flex;
+    justify-content       : center;
+    padding-bottom        : 5px;
+    
+}
+
 }
