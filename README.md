@@ -2,7 +2,7 @@
 
 This is a single page website for demonstrating a complete multipage website with in a single page.
 
-## Link: https://website-demo-5kt8pfxcl-electro-react.vercel.app/
+## Link: https://website-demo-seven.vercel.app/
 
 for more description or ny query please DM me  on my linkdin and insta
 
