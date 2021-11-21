@@ -2,8 +2,7 @@ import React from 'react';
 
 const Contact_Us=(props)=>{
     return <>
-<img src="https://th.bing.com/th/id/OIP.MDLY_6x7NYhfef9RW5I4uAHaD4?pid=ImgDet&rs=1" width="10px" height="50px" alt="Contact"></img> 
-<h1>my tag</h1> 
+    <h1>contact us</h1>
     </>
     // <div classname="content">
     //     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -14,5 +13,12 @@ const Contact_Us=(props)=>{
     // </div>
 
 }
+
+const Contact_Us = (props) => {
+    
+    return <>
+        <h1>contact us</h1>
+    </>};
+
 
 export default Contact_Us;
